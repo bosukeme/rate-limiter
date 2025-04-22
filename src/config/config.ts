@@ -6,7 +6,7 @@ dotenv.config();
 const config: IConfig = {
   port: Number(process.env.PORT) || 3000,
   nodeEnv: process.env.NODE_ENV || 'development',
-  limit: 10,
+  limit: 5,
   windowSeconds: 60,
   redis_host: process.env.REDIS_HOST || '127.0.0.1',
   redis_port: parseInt(process.env.REDIS_PORT || '6379'),
