@@ -3,6 +3,10 @@ export interface IConfig {
   nodeEnv: string;
   limit: number;
   windowSeconds: number;
+  redis_host: string;
+  redis_port: number;
+  redis_username: string;
+  redis_password: string;
 }
 
 export interface IAppError extends Error {
